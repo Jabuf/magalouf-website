@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center py-10">
-    <img :alt="props.name" :src="`/pictures/${props.name}.jpg`">
+    <img :alt="props.name" :src="`/pictures/${props.name}.jpeg`">
   </div>
 </template>
 

@@ -4,7 +4,7 @@
       <img alt="duche" src="/logo_full.png"/>
     </p>
   </div>
-  <div class="space-y-2">
+  <div class="space-y-2 justify-center flex">
     <p>Sortie amicale du RCV Magaluf le 1er juin.</p>
   </div>
 </template>

@@ -3,6 +3,7 @@ import Home from '@/pages/Home.vue'
 import Team from '@/pages/Team.vue'
 import Pictures from '@/pages/Pictures.vue'
 import Boyage from '@/pages/Boyage.vue'
+import TourDeMagaluf from '@/pages/TourDeMagaluf.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/equipe',
     name: "L'équipe",
     component: Team
+  },
+  {
+    path: '/tdm',
+    name: 'TDM',
+    component: TourDeMagaluf
   },
   {
     path: '/:pathMatch(.*)*',

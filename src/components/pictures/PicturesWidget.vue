@@ -1,5 +1,5 @@
 <template>
-  <PictureWidget v-for="index in 44" :key="index" :name="''+index"/>
+  <PictureWidget v-for="index in 5" :key="index" :name="''+index"/>
 </template>
 
 <script setup>
