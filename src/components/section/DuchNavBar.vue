@@ -18,7 +18,7 @@
                    src="/logo.png"/>
               <img alt="Workflow"
                    class="hidden lg:block h-12 w-auto" src="/logo.png"/>
-            </a>          
+            </a>
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
