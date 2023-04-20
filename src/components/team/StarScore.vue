@@ -22,14 +22,14 @@ const props = defineProps({
 
 const data = {
   labels: [
-    'Liche',
-    'Bringue',
-    'Fiable',
+    'Apéritif',
+    '4 deb',
+    'Ballon',
     'Bagarre',
-    'Chicots'
+    'Déblayage'
   ],
   datasets: [{
-    data: [props.scores.liche, props.scores.bringue, props.scores.fiable, props.scores.bagarre, props.scores.chicots],
+    data: [props.scores.aperitif, props.scores.deb, props.scores.ballon, props.scores.bagarre, props.scores.deblayage],
     fill: true,
     backgroundColor: 'rgba(255, 99, 132, 0.2)',
     borderColor: 'rgb(255, 99, 132)',

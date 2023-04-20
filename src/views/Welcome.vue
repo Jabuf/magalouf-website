@@ -5,6 +5,6 @@
     </p>
   </div>
   <div class="space-y-2">
-    <p>Whatever</p>
+    <p>Sortie amicale du RCV Magaluf le 1er juin.</p>
   </div>
 </template>

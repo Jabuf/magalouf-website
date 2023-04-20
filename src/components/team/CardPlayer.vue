@@ -62,21 +62,8 @@
         </div>
         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
           <dt class="flex items-center text-sm font-medium text-gray-500">
-            <UIcon :path="mdiTrophy"/>
-            Palmarès
-          </dt>
-          <ul role="list">
-            <li v-for="titre in player.palmares" class="flex items-center justify-between text-sm">
-              <div class="flex-1 flex items-center pb-2">
-                <span>• {{ titre }}</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-          <dt class="flex items-center text-sm font-medium text-gray-500">
             <UIcon :path="mdiStar"/>
-            Talent
+            Description
           </dt>
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"> {{ player.talent }}
           </dd>
