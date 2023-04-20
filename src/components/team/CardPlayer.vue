@@ -8,7 +8,7 @@
     </div>
     <div v-if="state.recto">
       <div class="max-h-96">
-        <img :alt="player.name" :src="`/team/${player.name}.jpg`" class="object-cover object-center h-96 w-96">
+        <img :alt="player.name" :src="`/team/${player.name}.jpeg`" class="object-cover object-center h-96 w-96">
       </div>
       <div class="px-4 py-5 sm:p-0">
         <dl class="divide-y divide-gray-200">

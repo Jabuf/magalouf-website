@@ -1,6 +1,6 @@
 export const players = [
   {
-    name: 'Big Ben',
+    name: 'Jacquouille',
     age: '34',
     poids: '97',
     taille: '1m88',
@@ -13,7 +13,7 @@ export const players = [
       'médaille de bronze du dos en carton 2019'
     ],
     talent:
-      "L'homme au physique de panda a de la gouaille. Une chose est sûr on peut pas le rater en soirée. Il avancera sûrement avoir la plus grosse consommation de la soirée. Attention aux velléités de bagarre en fin de soirée. ",
+      'Promis à un brillant avenir de dirigeant, ce demi de mêlée à l’ancienne tient la marée par vent violent. Loin de la maison et de madame il aura à coeur commander une dernière fois ses gros dans les méandres des bistrots de Magalouffe.',
     scores: {
       liche: '5',
       bringue: '4',
@@ -23,7 +23,7 @@ export const players = [
     }
   },
   {
-    name: 'Patoche',
+    name: 'Bébert',
     age: '34',
     poids: '80',
     taille: '1m85',
@@ -38,7 +38,7 @@ export const players = [
       'buveur de mauresque depuis 2015'
     ],
     talent:
-      "Patoche les mains baladeuses a de grandes mains, et c'est pas pour attraper des ballons. Aussi habile avec des fesses qu'avec des pintes. Muni d'un grand tarin, il sait renifler les bons coups ou les bonnes quilles. Joueur infatigable, il fait souvent parti des derniers debout. Attention à la prise de confiance pouvant aller jusqu’à la pancréatite",
+      'Son physique à la Willemse lui permet une grande résistance à l’apéritif. Ayant gérer l’Amicale d’une main de maître, cet organisateur hors pair sera guider les jeunes vers la cuite sans frémir. Ne vous fiez pas à sa nature discrète, il n’en pense pas moins.',
     scores: {
       liche: '5',
       bringue: '5',
@@ -48,7 +48,7 @@ export const players = [
     }
   },
   {
-    name: 'Bastiench',
+    name: 'Blo-is',
     age: '35',
     poids: '77',
     taille: '1m80',
@@ -61,7 +61,7 @@ export const players = [
       'a fait plusieurs aller retour de la rue de la soif'
     ],
     talent:
-      "Homme aussi littéraire qu'alcoolique. Il enchaîne les bouquins comme les bistrots. C’est à la tombée de la nuit que le iench se révèle. Il grogne, il boit, il salive devant les chiennes. Attention à l’animal!",
+      "Lui aussi tire sa révérence (à défaut d’autre chose). Son ennemi est l'enthousiasme dont il peut faire preuve qui le mène parfois au lit plus tot qu’un enfant de 7 ans. Si sa gestion laisse à désirer, Blo-is reste un parfait compagnon de route sur qui on peut compter.",
     scores: {
       liche: '5',
       bringue: '4',
@@ -71,7 +71,7 @@ export const players = [
     }
   },
   {
-    name: 'Fanfan',
+    name: 'Valde',
     age: '32',
     poids: '104',
     taille: '1m85',
@@ -84,7 +84,7 @@ export const players = [
       'carrière la plus courte de sumo'
     ],
     talent:
-      'Homme aux multiples facettes tant bien physiquement que intellectuellement, il déroute les adversaires. Il aime le gras ( l’humour et la bouffe), mais aussi le veau! Il est capable de tout ( comme laisser une crotte dans un manteau). Un homme à surveiller de près.',
+      'Ce jeune trentenaire s’est consacré corps et foie à l’Amicale et à son club. Étant de toutes les soirées, apéro, bodega ou autres festivités, son endurance et sa force de caractère n’est plus à prouver. Un solide gaillard sera, à n’en pas douter, dans tous les bons et surtout les mauvais coups.',
     scores: {
       liche: '4',
       bringue: '4',
@@ -94,7 +94,7 @@ export const players = [
     }
   },
   {
-    name: 'Duchat',
+    name: 'Moreno',
     age: '34',
     poids: '70',
     taille: '1m71',
@@ -110,7 +110,7 @@ export const players = [
       'meilleur cri de ralliement : « lesgarslesgarslesgars »'
     ],
     talent:
-      'Le sélectionneur sait fédérer (pas roger) autour de lui. Le petit costaud est du genre excité en soirée. Tantôt cascadeur, bagarreur, voir même un peu moqueur, le cerveau est dissous après 2 pintes. Il sait aussi botter ( dans les tronches) ! ',
+      'Ce jeune chasseur a fait ses preuves. Malgré un grand avenir dans le monde de l’apéritif, sa défaillance au palet ne lui permet pas, pour le moment, d’être parmi les meilleurs. Peut également disparaître quelques minutes avec une proie chasser à coup de billets de 20.',
     scores: {
       liche: '5',
       bringue: '5',
@@ -120,7 +120,7 @@ export const players = [
     }
   },
   {
-    name: 'Tobi',
+    name: 'Déus',
     age: '33',
     poids: '82',
     taille: '1m77',
@@ -133,7 +133,7 @@ export const players = [
       'Elu homme le plus talentueux de sa génération'
     ],
     talent:
-      "C’est l’homme à connaître en soirée. Tout le monde veut être à ses côtés. Les fêtes sans lui sont fades. Par ailleurs c'est le paratonnerre du groupe. Si il y a merde, c'est pour lui!",
+      'Habitué au dur labeur, le grand gabarit fera, à n’en pas douter, du groupe de tête. Son esprit acéré (déf : tranchant, tranchant ou pointu) sera le guider jusqu’au bout de l’aventure. La collaboration avec Moreno peut faire mal voire trop mal.',
     scores: {
       liche: '5',
       bringue: '5',
@@ -143,7 +143,7 @@ export const players = [
     }
   },
   {
-    name: 'Jeannot le blond',
+    name: 'Gardish',
     age: '35',
     poids: '75',
     taille: '1m80',
@@ -155,7 +155,7 @@ export const players = [
       'sélectionneur men o30 et dj'
     ],
     talent:
-      'ce charmeur à la crinière blonde, n’hésite pas à pousser la chansonnette quand il a un coup dans le nez (pas droit). Un témoin de son taux d’alcoolémie est sa capacité à sortir ses couilles. Attention avec sa perte de poids récente, a pas les sortir à 10h! ',
+      'Seul vainqueur d’un bouclier, Gardish est au top de sa confiance. Attention, le défi qui l’attend est tout autre. Il a les qualités requises pour s’en sortir s’en trop de dommage.',
     scores: {
       liche: '4',
       bringue: '5',
@@ -165,7 +165,7 @@ export const players = [
     }
   },
   {
-    name: 'Hugos',
+    name: 'Clams',
     age: '43',
     poids: '64',
     taille: '1m71',
@@ -177,7 +177,7 @@ export const players = [
       'Mari d’Estelle '
     ],
     talent:
-      'Le doyen de la sélection n’a rien à envier aux petits jeunes. Le bénéfice de l’âge lui permet de parfaitement gérer ses efforts et ses cuites. Comme en ski, il enchaîne les bières comme les virages et ça descend vite! Cependant attention à l’arthrose!',
+      'Le coach du groupe. Sa venue au dernier moment est perçue comme un signe de la violence de l\'événement. Son expérience des combats rudes qu’il a déjà moment menés seront un élément à prendre en compte. Peu parfois, tard le soir, se transformer en zombie, il ne faut pas croiser son regard sinon gare à vous',
     scores: {
       liche: '4',
       bringue: '4',
@@ -187,7 +187,7 @@ export const players = [
     }
   },
   {
-    name: 'Taloche',
+    name: 'La Rems',
     age: '33',
     poids: '85',
     taille: '1m70',
@@ -200,7 +200,7 @@ export const players = [
       'participation championnat mangeur hot dog canadien depuis 2016'
     ],
     talent:
-      'Petit mais râblé, ce petit costaud au centre de gravité bas est toujours présent dans les grands rendez vous. Il a peu de dextérité avec ses jambes mais pour lever le coude il y a pas meilleur. Son taux d’alcoolémie peut être proportionnel à son taux de sudation',
+      'Agriculteur de son état, nous sommes en présence d’un dur au mal. Le dur labeur ne l’effraie pas, de jour comme de nuit il fait le taf qu’importe les conditions. Attention tout de même au déboitage de l’épaule sur un cul sec trop rapide et enthousiaste.',
     scores: {
       liche: '4',
       bringue: '5',
@@ -210,7 +210,7 @@ export const players = [
     }
   },
   {
-    name: 'Broliche',
+    name: 'Mini Rems',
     age: '34',
     poids: '78',
     taille: '1m83',
@@ -223,7 +223,7 @@ export const players = [
       'calvitie on the rocks 2018'
     ],
     talent:
-      'Un expert dans la cuite expresse. La paupière chute au fur et à mesure que l’alcool monte. Une fois l’œil quasi fermé, fâcheuse tendance à la déambulation. Par ailleurs faiblesse à la cuisse et à la fesse (putain de déchirure).',
+      'L’intellectuel de la bande (il fait encore des études à 19 ans). ayant eut peu d’occasion pour le voir à l\'œuvre, nous pensons que les soirées étudiantes lui permettront de suivre les plus costauds du voyage.',
     scores: {
       liche: '4',
       bringue: '4',
@@ -233,7 +233,7 @@ export const players = [
     }
   },
   {
-    name: 'Philipe',
+    name: 'Ludo',
     age: '34',
     poids: '80',
     taille: '1m89',
@@ -246,7 +246,7 @@ export const players = [
       'a bu une palette de chablis pour que gilles accepte de lui filer la place'
     ],
     talent:
-      "Le sudiste de la bande sera à son avantage dans les chaleurs portugaises. Le fraté a l’habitude d’enchaîner les mauresques pour éviter l’insolation. Attention à bien porter un couvre chef sinon c'est le coup de soleil assuré! Pour toute question logisitique il sera le pro. C est notre Bernard tapie",
+      '2e au concours inter-communale de ventre y glisse, le Ludo sera encaisser les coups sans frémir. La distance ne sera pas un souci, habitué aux longues joutes d’apéritif, il sera présent. Ne pas lui laisser le pec citron.',
     scores: {
       liche: '4',
       bringue: '4',
@@ -256,7 +256,7 @@ export const players = [
     }
   },
   {
-    name: 'el Tono',
+    name: 'Totor',
     age: '34',
     poids: '68',
     taille: '1m78',
@@ -269,7 +269,7 @@ export const players = [
       'buveur de bourgogne dans les soirées bobos parisiennes'
     ],
     talent:
-      "Ce freluquet parisien est aussi adroit pour grimper les gonzesses que des parois. En revanche la descente c'est surtout au bistrot qu’elle est impressionnante, en particulier quand c’est du pinard. Son appendice peut mettre ko sur une biffle",
+      'Attention au parisien exilé. Quand il enclenche la 1ère, il ne fait pas de la figuration. Son sens de l’orientation lui permettra de retrouver le chemin. Ayant une bonne expérience, au vue de son âge, nous sommes impatient de le voir évoluer sur longue distance.',
     scores: {
       liche: '3',
       bringue: '4',
@@ -279,7 +279,7 @@ export const players = [
     }
   },
   {
-    name: 'Jeje',
+    name: 'Gachette',
     age: '31',
     poids: '64',
     taille: '1m70',
@@ -292,7 +292,7 @@ export const players = [
       'dépendance au popi'
     ],
     talent:
-      "Le benjamin de la sélection est un parfait impact player. Il commence souvent très fort mais à du mal à maintenir l’effort. Attention au popi, c'est son péché mignon!",
+      'Ambassadeur officiel du Captain Morgan en Nouvelle Aquitaine, ce beau gabarit ne sera pas effrayé par la longueur du défi. Cet adepte de la buvette a de nombreuses heures d’apéritif au compteur, ces week-ends ne sont qu’une longue nuit. Un candidat à prendre très au sérieux.',
     scores: {
       liche: '4',
       bringue: '3',
@@ -315,7 +315,7 @@ export const players = [
       'calvitie on the rocks 2018 (invité d’honneur)'
     ],
     talent:
-      'Une aptitude certaine dès le plus jeune âge pour enchaîner les canons. Ce cubis de science a autant de capacité à boire que ses golfs sont profonds. Passé un certain seuil, il sort sa trompe et se prend pour un ventilateur ! Comme les autres petits modèles du groupe, tendance à la bagarre !',
+      'Vendéen de son état, ce petit gabarit a de l’expérience. Malgré tout, plusieurs arrêts lui seront nécessaires pour “s’aléger” ce qui lui fait perdre de précieuses minutes dans l’ascension vers les sommets.\n',
     scores: {
       liche: '5',
       bringue: '5',
@@ -325,7 +325,7 @@ export const players = [
     }
   },
   {
-    name: 'Marchand',
+    name: 'Nono',
     age: '34',
     poids: '68',
     taille: '1m72',
@@ -338,7 +338,76 @@ export const players = [
       "buveur d'Anjou depuis 2014"
     ],
     talent:
-      "Ne pas se fier à son physique de minus, c'est une vrai teigne, voir bagarreur. C'est un homme des grands matchs, où il fait jamais dans la dentelle. Ses yeux grossissent avec l’alcool.",
+      'Un autre petit jeune qui en veut. Sa dextérité sera mise à rude épreuve notamment en fin de soirée. Son activité débordante lui permettra d’être dans tous les coups mais attention au coup de pompe sur la durée.',
+    scores: {
+      liche: '3',
+      bringue: '3',
+      fiable: '4',
+      bagarre: '5',
+      chicots: '3'
+    }
+  },
+  {
+    name: 'Theophile',
+    age: '34',
+    poids: '68',
+    taille: '1m72',
+    poste: 'arrière ',
+    palmares: [
+      ' buveur de mumm 2000 - 2022 ',
+      'dort sur les genoux des clodos ',
+      'pisse dans le placard et Vomi dans le sanibroyeur ',
+      'sert la main aux enfants de ses conquêtes',
+      "buveur d'Anjou depuis 2014"
+    ],
+    talent:
+      'Il revient de loin. Ses blessures l’ont handicapé tout au long de la saison mais il revient au bon moment. Son endurance sera un atout pour prendre la roue des meilleurs. Le hors catégorie ne lui fait pas peur, attention à ne pas monter trop haut.',
+    scores: {
+      liche: '3',
+      bringue: '3',
+      fiable: '4',
+      bagarre: '5',
+      chicots: '3'
+    }
+  },
+  {
+    name: 'Jorgio',
+    age: '34',
+    poids: '68',
+    taille: '1m72',
+    poste: 'arrière ',
+    palmares: [
+      ' buveur de mumm 2000 - 2022 ',
+      'dort sur les genoux des clodos ',
+      'pisse dans le placard et Vomi dans le sanibroyeur ',
+      'sert la main aux enfants de ses conquêtes',
+      "buveur d'Anjou depuis 2014"
+    ],
+    talent:
+      '#Portugais#Bûcheron#Ronaldo est un vaillant combattant. On est pas sur la même hygiène de vie que son compatriote. Ce beau gabarit ira jusqu’au bout de ses capacités pour prouver qu’il n’est pas revenu pour rien. Siiiiiiiiiiuuuuuuuuuuuuuuuuuuuuuuu.',
+    scores: {
+      liche: '3',
+      bringue: '3',
+      fiable: '4',
+      bagarre: '5',
+      chicots: '3'
+    }
+  },
+  {
+    name: 'Zézé',
+    age: '34',
+    poids: '68',
+    taille: '1m72',
+    poste: 'arrière ',
+    palmares: [
+      ' buveur de mumm 2000 - 2022 ',
+      'dort sur les genoux des clodos ',
+      'pisse dans le placard et Vomi dans le sanibroyeur ',
+      'sert la main aux enfants de ses conquêtes',
+      "buveur d'Anjou depuis 2014"
+    ],
+    talent:
+      'Expatrié de Géorgie depuis l’enfance, le colosse attend ce voyage avec impatience pour découvrir de nouvelle culture, féminine de préférence. Attention à la bête, l’apéritif fait partie de sa culture ainsi que son investissement total lui permettra d’être sur tous les fronts.',
     scores: {
       liche: '3',
       bringue: '3',

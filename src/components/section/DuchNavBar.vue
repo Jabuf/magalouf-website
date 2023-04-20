@@ -14,10 +14,8 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
             <a href="./">
-              <img alt="Workflow" class="block lg:hidden h-8 w-auto"
-                   src="/logo.png"/>
               <img alt="Workflow"
-                   class="hidden lg:block h-8 w-auto" src="/logo.png"/>
+                   class="hidden lg:block h-12 w-auto" src="/logo.png"/>
             </a>
           </div>
           <div class="hidden sm:block sm:ml-6">
