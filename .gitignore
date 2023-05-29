@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # Idea files
-.idea
+.idea/
 
 # Vue build output
 .output
