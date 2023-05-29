@@ -28,7 +28,7 @@
     "survey-knockout-ui": "^1.9.89",
     "survey-vue-ui": "^1.9.89",
     "vue": "^3.2.13",
-    "vue-cookies": "^1.8.1",
+    "vue-cookies": "^1.8.3",
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
