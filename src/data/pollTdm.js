@@ -7,19 +7,19 @@ export const pollTdmJson = {
       'isRequired': true,
       'choices': [
         {
-          'value': 'Item 1',
+          'value': 'Jacquouille',
           'text': 'Jacquouille'
         },
         {
-          'value': 'Item 2',
+          'value': 'Bébert',
           'text': 'Bébert'
         },
         {
-          'value': 'Item 3',
+          'value': 'Blo-is',
           'text': 'Blo-is'
         },
         {
-          'value': 'Item 4',
+          'value': 'Valde',
           'text': 'Valde'
         }
       ]
@@ -30,19 +30,19 @@ export const pollTdmJson = {
       'isRequired': true,
       'choices': [
         {
-          'value': 'Item 1',
+          'value': 'Jacquouille',
           'text': 'Jacquouille'
         },
         {
-          'value': 'Item 2',
+          'value': 'Bébert',
           'text': 'Bébert'
         },
         {
-          'value': 'Item 3',
+          'value': 'Blo-is',
           'text': 'Blo-is'
         },
         {
-          'value': 'Item 4',
+          'value': 'Valde',
           'text': 'Valde'
         }
       ]
@@ -54,19 +54,19 @@ export const pollTdmJson = {
       'isRequired': true,
       'choices': [
         {
-          'value': 'Item 1',
+          'value': 'Jacquouille',
           'text': 'Jacquouille'
         },
         {
-          'value': 'Item 2',
+          'value': 'Bébert',
           'text': 'Bébert'
         },
         {
-          'value': 'Item 3',
+          'value': 'Blo-is',
           'text': 'Blo-is'
         },
         {
-          'value': 'Item 4',
+          'value': 'Valde',
           'text': 'Valde'
         }
       ]
@@ -74,6 +74,6 @@ export const pollTdmJson = {
 
 
   ],
-  'title': 'Journée du 17 juin',
+  'title': 'Tour de Magaluf',
   'showQuestionNumbers': false
 }
