@@ -58,7 +58,7 @@ onMounted(async () => {
 })
 
 async function fetchReviews() {
-  return base('Review').select({
+  return base('ReviewMagalouf').select({
     view: 'Review'
   }).firstPage()
 }
@@ -71,7 +71,7 @@ async function postReview() {
   }
   const now = new Date()
   state.review.date = now.toLocaleDateString() + ' ' + now.toLocaleTimeString()
-  await base('Review').create([
+  await base('ReviewMagalouf').create([
     {
       'fields': state.review
     }
