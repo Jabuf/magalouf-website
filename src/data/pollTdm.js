@@ -3,7 +3,7 @@ export const pollTdmJson = {
     {
       'type': 'dropdown',
       'name': 'jaune',
-      'title': 'Maillot jaune',
+      'title': 'Maillot jaune (meilleur performance)',
       'isRequired': true,
       'choices': [
         {
@@ -26,7 +26,7 @@ export const pollTdmJson = {
     }, {
       'type': 'dropdown',
       'name': 'vert',
-      'title': 'Maillot vert',
+      'title': 'Maillot vert (meilleur descente)',
       'isRequired': true,
       'choices': [
         {
@@ -50,7 +50,7 @@ export const pollTdmJson = {
     {
       'type': 'dropdown',
       'name': 'pois',
-      'title': 'Maillot à pois',
+      'title': 'Maillot à pois (meilleur grammage)',
       'isRequired': true,
       'choices': [
         {

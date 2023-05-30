@@ -1,23 +1,22 @@
 <template>
+<!--  <div>-->
+<!--    <div class="text-center text-5xl py-5">Etape 3</div>-->
+<!--    <div v-if="!cookies.isKey('PollDay3')" id="surveyDayThree" />-->
+<!--    <div v-else>-->
+<!--    </div>-->
+<!--  </div>-->
   <div>
-    <div class="text-center">Jour 1</div>
-    <div v-if="!cookies.isKey('PollDay1')" id="surveyDayOne" />
-    <div v-else>
-      <ResultsPoll :results="{}" day="1" />
-    </div>
-  </div>
-  <div>
-    <div class="text-center">Jour 2</div>
+    <div class="text-center text-5xl py-5">Etape 2</div>
     <div v-if="!cookies.isKey('PollDay2')" id="surveyDayTwo" />
     <div v-else>
-      <ResultsPoll :results="{}" day="2" />
     </div>
   </div>
   <div>
-    <div class="text-center">Jour 3</div>
-    <div v-if="!cookies.isKey('PollDay3')" id="surveyDayThree" />
+    <div class="text-center text-5xl py-5">Etape 1</div>
+    <div v-if="!cookies.isKey('PollDay1')" id="surveyDayOne" />
     <div v-else>
-      <ResultsPoll :results="{}" day="3" />
+<!--      <div class="text-center text-5xl"> En attente des résultats</div>-->
+      <Results results="" />
     </div>
   </div>
 </template>
@@ -29,7 +28,7 @@ import { Survey } from 'survey-knockout-ui'
 import { pollTdmJson } from '@/data/pollTdm.js'
 import { inject, onMounted } from 'vue'
 import Airtable from 'airtable'
-import ResultsPoll from '@/components/tdm/ResultsPoll.vue'
+import Results from '@/components/tdm/Results.vue'
 
 const cookies = inject('$cookies')
 
@@ -58,7 +57,6 @@ async function postAnswerDayOne() {
 const base = new Airtable({ apiKey: 'keyphfsB83HLB5gcL' }).base('app8gya478AOE2nxo')
 
 async function postAnswer(tableName, answers) {
-  console.log(answers)
   await base(tableName).create([
     {
       'fields': answers
