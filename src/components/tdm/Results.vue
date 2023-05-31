@@ -4,7 +4,7 @@
       <img alt="jaune" :src="`/jaune.png`">
     </div>
     <div class="text-center">
-      <span class="text-5xl">Lolo</span>
+      <span class="text-5xl">{{results.jaune}}</span>
     </div>
   </div>
   <div>
@@ -12,7 +12,7 @@
       <img alt="vert" :src="`/vert.png`">
     </div>
     <div class="text-center">
-      <span class="text-5xl">Lolo</span>
+      <span class="text-5xl">{{results.vert}}</span>
     </div>
   </div>
   <div>
@@ -20,7 +20,7 @@
       <img alt="pois" :src="`/pois.png`">
     </div>
     <div class="text-center">
-      <span class="text-5xl">Lolo</span>
+      <span class="text-5xl">{{results.pois}}</span>
     </div>
   </div>
 </template>
