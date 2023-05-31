@@ -1,7 +1,7 @@
 <template>
   <div v-if="state.isPollDayThree">
     <div class="text-center text-5xl py-5">Etape 3</div>
-    <div v-if="!cookies.isKey('PollDay3') && state.isPollDayThree" id="surveyDayThree" />
+    <div v-if="!cookies.isKey('PollDay3')" id="surveyDayThree" />
     <Results v-if="state.isResultDayThree" :results="state.resultsDayThree" />
   </div>
   <div v-if="state.isPollDayTwo">
@@ -11,7 +11,7 @@
   </div>
   <div v-if="state.isPollDayOne">
     <div class="text-center text-5xl py-5">Etape 1</div>
-    <div v-if="!cookies.isKey('PollDay1') && state.isPollDayOne" id="surveyDayOne" />
+    <div v-if="!cookies.isKey('PollDay1')" id="surveyDayOne" />
     <Results v-if="state.isResultDayOne" :results="state.resultsDayOne" />
   </div>
 </template>
