@@ -35,12 +35,12 @@ const surveyDayThree = new Survey(pollTdmJson)
 
 const state = reactive({
   resultsDayOne: {}, resultsDayTwo: {}, resultsDayThree: {}, resultsTotal: {},
-  isPollDayOne: new Date() > new Date(2023, 4, 3, 10, 0),
+  isPollDayOne: new Date() > new Date(2023, 5, 3, 10, 0),
   isPollDayTwo: new Date() > new Date(2023, 5, 4, 10, 0),
-  isPollDayThree: new Date() > new Date(2023, 5, 5, 10, 0),
-  isResultDayOne: new Date() > new Date(2023, 4, 3, 12, 0),
+  isPollDayThree: new Date() > new Date(2023, 5, 4, 20, 0),
+  isResultDayOne: new Date() > new Date(2023, 5, 3, 12, 0),
   isResultDayTwo: new Date() > new Date(2023, 5, 4, 12, 0),
-  isResultDayThree: new Date() > new Date(2023, 5, 5, 11, 0)
+  isResultDayThree: new Date() > new Date(2023, 5, 4, 20, 30)
 })
 
 const base = new Airtable({ apiKey: 'keyphfsB83HLB5gcL' }).base('app8gya478AOE2nxo')
