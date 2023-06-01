@@ -4,6 +4,7 @@ import Team from '@/pages/Team.vue'
 import Pictures from '@/pages/Pictures.vue'
 import Boyage from '@/pages/Boyage.vue'
 import TourDeMagaluf from '@/pages/TourDeMagaluf.vue'
+import ResultsTotal from '@/pages/ResultsTotal.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/tdm',
     name: 'TDM',
     component: TourDeMagaluf
+  },
+  {
+    path: '/results',
+    name: 'Results',
+    component: ResultsTotal
   },
   {
     path: '/:pathMatch(.*)*',
