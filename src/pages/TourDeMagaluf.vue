@@ -33,7 +33,7 @@ const surveyDayTwo = new Survey(pollTdmJson)
 const surveyDayThree = new Survey(pollTdmJson)
 
 const state = reactive({
-  resultsDayOne: {}, resultsDayTwo: {}, resultsDayThree: {},
+  resultsDayOne: {}, resultsDayTwo: {}, resultsDayThree: {},resultsTotal: {},
   isPollDayOne: new Date() > new Date(2023, 4, 3, 10, 0),
   isPollDayTwo: new Date() > new Date(2023, 5, 4, 10, 0),
   isPollDayThree: new Date() > new Date(2023, 5, 5, 10, 0),
@@ -56,6 +56,8 @@ const resultsDayThree = (await base('PollDay3').select({
 state.resultsDayOne = getTopResultByCategory(resultsDayOne)
 state.resultsDayTwo = getTopResultByCategory(resultsDayTwo)
 state.resultsDayThree = getTopResultByCategory(resultsDayThree)
+state.resultsTotal = [...resultsDayOne, ...resultsDayTwo, ...resultsDayThree]
+console.log(getTopResultByCategory(state.resultsTotal))
 
 function getTopResultByCategory(results) {
   return {
