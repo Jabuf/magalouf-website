@@ -2,6 +2,7 @@
   <div v-if="state.isPollDayThree">
     <div class="text-center text-5xl py-5">Etape 3</div>
     <div v-if="!cookies.isKey('PollDay3')" id="surveyDayThree" />
+    <Results v-if="state.isResultDayThree" :results="state.resultsTotal" />
     <Results v-if="state.isResultDayThree" :results="state.resultsDayThree" />
   </div>
   <div v-if="state.isPollDayTwo">
@@ -33,7 +34,7 @@ const surveyDayTwo = new Survey(pollTdmJson)
 const surveyDayThree = new Survey(pollTdmJson)
 
 const state = reactive({
-  resultsDayOne: {}, resultsDayTwo: {}, resultsDayThree: {},resultsTotal: {},
+  resultsDayOne: {}, resultsDayTwo: {}, resultsDayThree: {}, resultsTotal: {},
   isPollDayOne: new Date() > new Date(2023, 4, 3, 10, 0),
   isPollDayTwo: new Date() > new Date(2023, 5, 4, 10, 0),
   isPollDayThree: new Date() > new Date(2023, 5, 5, 10, 0),
@@ -53,11 +54,11 @@ const resultsDayTwo = (await base('PollDay2').select({
 const resultsDayThree = (await base('PollDay3').select({
   view: 'main'
 }).firstPage()).map(e => e.fields)
+const resultsTotal = [...resultsDayOne, ...resultsDayTwo, ...resultsDayThree]
 state.resultsDayOne = getTopResultByCategory(resultsDayOne)
 state.resultsDayTwo = getTopResultByCategory(resultsDayTwo)
 state.resultsDayThree = getTopResultByCategory(resultsDayThree)
-state.resultsTotal = [...resultsDayOne, ...resultsDayTwo, ...resultsDayThree]
-console.log(getTopResultByCategory(state.resultsTotal))
+state.resultsTotal = getTopResultByCategory(resultsTotal)
 
 function getTopResultByCategory(results) {
   return {
